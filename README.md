@@ -1,3 +1,2 @@
 # Filmoteka
-
-Сервіс для швидкого перегляду популярних фільмів. З можливістю створити список фільмів до перегляду і переглянутих фільмів.
+Application for searching movies and info about it. It allows to add choosen movie into a personal library.
