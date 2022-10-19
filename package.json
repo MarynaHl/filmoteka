@@ -2,20 +2,20 @@
   "name": "filmoteka",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://ddekerr.github.io/Filmoteka",
+  "homepage": "https://MarynaHl.github.io/Filmoteka",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /Filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ddekerr/Filmoteka.git"
+    "url": "git+https://github.com/MarynaHl/Filmoteka.git"
   },
   "keywords": [],
-  "author": "GoIT 11 Team <dimon.bond.94@gmail.com>",
+  "author": "GoIT 11 Team <hlushak.m.v@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ddekerr/Filmoteka/issues"
+    "url": "https://github.com/MarynaHl/Filmoteka/issues"
   },
   "dependencies": {
     "axios": "^0.27.2",
