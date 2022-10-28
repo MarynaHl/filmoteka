@@ -1,0 +1,22 @@
+.spiner {
+  position: absolute;
+  @extend %position;
+  width: 100px;
+  height: 100px;
+  border: 15px solid rgb(20, 18, 18);
+  border-radius: 50%;
+  border-top-color: $accent-color;
+  animation: 1s spin infinite linear;
+}
+.done {
+  display: none;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

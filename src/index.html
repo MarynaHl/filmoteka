@@ -2,44 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
     <title>Filmoteka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      type="image/png"
-      sizes="16x16"
-      rel="icon"
-      href="./images/favicon.png"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
     />
-
-    <link rel="stylesheet" href="/node_modules/spin.js/spin.css" />
-    <link rel="stylesheet" href="./sass/index.scss" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/svg+xml" href="./images/icon/favicon.svg" />
+    <link rel="alternate icon" href="./images/icon/favicon.ico" />
   </head>
   <body>
-    <div class="wrapper">
-      <include src="./partials/header.html"></include>
-      <include src="./partials/main.html"></include>
-      <include src="./partials/footer.html"></include>
-    </div>
-
-    <!-- Modal form for Singlr card film -->
-    <include src="./partials/modal.html"></include>
-
-    <!-- Modal form for Singlr card film -->
-    <include src="./partials/modal-team.html"></include>
-    <!-- Lazysizes library script file -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js"></script>
-    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-    <!--Scroll -->
-    <script>
-      addBackToTop({
-        diameter: 40,
-        backgroundColor: '#ff6b08',
-        textColor: '#fff',
-        scrollDuration: 1000,
-        showWhenScrollTopIs: 1,
-      });
-    </script>
-    <script type="module" src="./js/index.js"></script>
+    <include src="./partial/layouts/spiner.html"></include>
+    <include src="./partial/layouts/header.html"></include>
+    <include src="./partial/layouts/main.html"></include>
+    <include src="./partial/layouts/footer.html"></include>
+    <include src="./partial/layouts/backdrop.html"></include>
+    <include src="./partial/components/scroll-top.html"></include>
+    <script src="./index.js"></script>
   </body>
 </html>

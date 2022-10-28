@@ -1,0 +1,37 @@
+//============utils=================
+@import './utils/vars';
+@import './utils/no-scroll';
+@import './utils/visually-hidden';
+@import './utils/btn';
+@import './utils/style';
+
+//============base==================
+@import './base/global-style';
+@import './base/reset';
+@import './base/container';
+
+//===========layout=================
+
+//header
+@import './layout/header';
+@import './layout/header-btn';
+@import './layout/theme-switch';
+@import './layout/language';
+//main
+@import './layout/list-cards-movies';
+@import './layout/filters';
+@import './layout/main-section';
+//footer
+@import './layout/footer';
+
+//=========components===============
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-btn';
+@import './components/modal-video';
+@import './components/spiner';
+@import './components/contacts';
+@import './components/scroll-top.scss';
+@import './components/modal-arrows';
+@import './components/pagination';
+@import './components/animation';

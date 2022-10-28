@@ -1,0 +1,16 @@
+body {
+  font-family: $primary-font, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: $primary-text-color;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient($accent-color, $btn-shadow-color);
+  border-radius: 10px;
+}
