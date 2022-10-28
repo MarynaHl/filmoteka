@@ -1,0 +1,10 @@
+{
+  "students": [
+    {
+      "name": "Maryna",
+      "surname": "Hlushak",
+      "url": "https://github.com/MarynaHl",
+      "role": ["Web Developer"]
+    }
+  ]
+}

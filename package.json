@@ -1,38 +1,33 @@
 {
   "name": "filmoteka",
-  "version": "2.0.0",
+  "version": "1.1.0",
   "description": "",
-  "homepage": "https://MarynaHl.github.io/Filmoteka",
+  "main": "index.js",
+  "homepage": "https://marynahl.github.io/filmoteka",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Filmoteka/"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /filmoteka/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MarynaHl/Filmoteka.git"
+    "url": "git+https://github.com/marynahl/filmoteka.git"
   },
   "keywords": [],
-  "author": "GoIT 11 Team <hlushak.m.v@gmail.com>",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MarynaHl/Filmoteka/issues"
-  },
-  "dependencies": {
-    "axios": "^0.27.2",
-    "firebase": "^9.9.4",
-    "lodash.debounce": "^4.0.8",
-    "modern-normalize": "^1.1.0",
-    "notiflix": "^3.2.5",
-    "spin.js": "^4.1.1",
-    "tui-pagination": "^3.4.1"
+    "url": "https://github.com/marynahl/filmoteka/issues"
   },
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.6.0",
-    "buffer": "^6.0.3",
-    "parcel": "^2.6.0",
-    "parcel-reporter-clean-dist": "^1.0.4",
-    "posthtml-include": "^1.7.4",
-    "process": "^0.11.10"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.2",
+    "sass": "^1.43.4"
   },
-  "browserslist": "> 0.5%, last 2 versions, not dead"
+  "dependencies": {
+    "axios": "^0.24.0",
+    "debounce": "^1.2.1",
+    "notiflix": "^3.2.2"
+  }
 }
